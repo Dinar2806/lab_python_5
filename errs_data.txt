@@ -1,0 +1,8 @@
+# Данные об ошибках
+
+ОШИБКА      ПУТЬ К ФАЙЛУ                        СТРОКА
+1           ./src/modules/bash/cp.py            47
+2           ./src/modules/full_cycle.py         51
+3           ./src/modules/bash/rm.py            73
+4           ./src/modules/valid_and_path_ops.py 86
+5           ./src/modules/bash/history.py       49

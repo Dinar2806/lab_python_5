@@ -1,0 +1,3 @@
+HOME_CATALOG: str = "" #стартовая директория
+LOG_FILE: str = ""
+HISTORY_FILE: str = ""

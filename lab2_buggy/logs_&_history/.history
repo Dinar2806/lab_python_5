@@ -1,0 +1,96 @@
+1 MpnEtv101
+2 ls
+3 history
+4 ls
+5 history
+6 ls
+7 arg
+8 asfga
+9 afg
+10 argad
+11 history 3
+12 history
+13 history
+14 history 1000
+15 history 10000
+16 ls
+17 history 1000
+18 ls
+19 ls -jjjj
+20 cd ..
+21 cd ..
+22 ls
+23 cd test3
+24 ls
+25 cd ..
+26 cd test3
+27 ls
+28 cd test3
+29 ls
+30 cd test
+31 cp
+32 cp -r test /home/dantoom/for_lab2/test3
+33 cp -r /home/dantoom/for_lab2/test3/test /home/dantoom/for_lab2/test3/
+34 cp -r /home/dantoom/for_lab2/test3/test /home/dantoom/for_lab2/test3
+35 ls
+36 ls
+37 cd test3
+38 ls
+39 cp -r test /home/dantoom/for_lab2
+40 ls
+41 rm -r test
+42 ls
+43 history 5
+44 cd ..
+45 ls
+46 cat mmm.txt
+47 grep 
+48 grep tt mmm.txt
+49 ls
+50 zip 
+51 zip test3 kkk.zip
+52 ls
+53 unzip
+54 rm -r test3
+55 ls
+56 unzip kkk.txt
+57 unzip kkk.zip
+58 ls
+59 ls ttt
+60 rm -r ttt
+61 ls
+62 ls
+63 ppp.txt
+64 ls
+65 ls fil.txt
+66 mv
+67 ls
+68 mv lkdfv lksdfmvkls
+69 mv ppp.txt /home/dantoom/for_lab2/ttt
+70 ls
+71 ls ttt
+72 cd ttt
+73 ls
+74 mv ppp.txt /home/dantoom/for_lab2
+75 cd ..
+76 ls
+77 ls
+78 ls
+79 ls fil.txt
+80 rm fil.txt
+81 ls
+82 cd dir
+83 ls
+84 ls u
+85 ls uu
+86 cd ..
+87 rm -r dir
+88 ls
+89 ls
+90 cd dir
+91 ls dir
+92 ls
+93 cd ..
+94 rm -r dir
+95 ls
+96 exit
