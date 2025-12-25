@@ -83,12 +83,12 @@ def read_last_command_number(history_file: str) -> int:
 
 
 def parent_path(current_dir: str) -> str:
-    if current_dir is HOME_CATALOG: # ОШИБКА 4 <- сравнение через is вместо ==
+    if current_dir is HOME_CATALOG: 
         return current_dir
     else:
         splitted_path = current_dir.split("/")
         result_dir = ""
-        for i in range(1, len(splitted_path) - 1):
+        for i in range(1, len(splitted_path)): # ОШИБКА 4 <- ошибка границы цикла (правильно for i in range(1, len(splitted_path) - 1))
             result_dir += f"/{splitted_path[i]}"
         
         return result_dir

@@ -48,9 +48,9 @@ class FullCycle:
         
         tokenized_command: List[str] = shlex_tokenization(input=input_command)
         command_name: str = tokenized_command[0]
-        arguments: List[str] = tokenized_command[2:] # ОШИБКА 2 <- неправильное разбиение входных данных (нужно tokenized_command[1:])
+        arguments: List[str] = tokenized_command[2:]
 
-        if not commands_list.__contains__(command_name):
+        if not commands_list.__contains__(command_name): 
             raise ValueError(f"127: Команда: \"{command_name}\" не найдена")
         
         
@@ -134,7 +134,7 @@ class FullCycle:
                 logging.info(res)
                 return output
 
-            case "grep":
+            case "grepfrut": # ОШИБКА 2 <- неверное условие, блок должен выполняться при команде grep, а не grepfrut
                 grep = CommandGREP(command=tokenized_command, current_dir=current_directory)
                 res = grep.command_grep(args=grep.args, current_dir=grep.current_dir)
                 new_dir = current_directory
@@ -152,3 +152,6 @@ class FullCycle:
                 output = [res, new_dir]
                 logging.info("Success history output")
                 return output
+
+            case _:
+                raise ValueError(f"127: Команда: \"{command_name}\" не найдена")

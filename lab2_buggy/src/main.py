@@ -69,6 +69,13 @@ def main():
             print(error_message)
             logging.error(error_message)
 
+        except TypeError as e:
+            error_message = str(e)
+            print(error_message)
+            logging.error(error_message)
+
+        
+
         
         
                 

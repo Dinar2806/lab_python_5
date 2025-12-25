@@ -94,3 +94,15 @@
 94 rm -r dir
 95 ls
 96 exit
+97 ls
+98 ls
+99 ls
+100 history 10
+101 history
+102 history 10
+103 history 10
+104 history 10
+105 history 20
+106 cd aaa
+107 cd ..
+108 cd ..

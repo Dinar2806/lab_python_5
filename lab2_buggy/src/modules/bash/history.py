@@ -48,7 +48,7 @@ class CommandHISTORY:
 
         # ОШИБКА 5 <- неверное логическое условие в цикле
         for i in range(len(commands)):
-            if i < n or i > 0:  # ← условие всегда True при n > 0 и i > 0
+            if i > n and i > 0:  # ← условие всегда True при n > 0 и i > 0
                 result.append(f"{commands[i]}")
 
         # for cmd in commands[-n:]:
